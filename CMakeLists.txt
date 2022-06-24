@@ -19,3 +19,6 @@ target_link_libraries(op_transpose common)
 
 add_executable(op_pooling op_pooling.cpp ${timer_src})
 target_link_libraries(op_pooling common)
+
+add_executable(op_transpose_c3 op_transpose_c3.cpp ${timer_src})
+target_link_libraries(op_transpose_c3 common)
